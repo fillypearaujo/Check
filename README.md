@@ -14,13 +14,6 @@ Aplicativo simples de lista de tarefas (To-Do List) com suporte a **modo escuro*
 
 ---
 
-## 📸 Demonstração
-
-<img src="screenshot-light.png" alt="Tema Claro" width="400"/>
-<img src="screenshot-dark.png" alt="Tema Escuro" width="400"/>
-
----
-
 ## 🚀 Tecnologias utilizadas
 
 - HTML5
@@ -47,14 +40,6 @@ Aplicativo simples de lista de tarefas (To-Do List) com suporte a **modo escuro*
    ```bash
    start index.html
    ```
----
-
-## 🌙 Tema Escuro
-
-* Alternância de tema via botão (☀️/🌕)
-* Preferência de tema é salva localmente
-* O título principal (`<h1>`) também muda de cor com o tema
-
 ---
 
 ## 🗂️ Estrutura do Projeto
