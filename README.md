@@ -34,7 +34,7 @@ Aplicativo simples de lista de tarefas (To-Do List) com suporte a **modo escuro*
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/checkplus.git
-````
+
 
 2. Acesse a pasta do projeto:
 
@@ -68,17 +68,3 @@ checkplus/
 ```
 
 ---
-
-## 📄 Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
-
-## ✍️ Autor
-
-Desenvolvido por **Fillype Araújo**
-📧 Contato: [seuemail@exemplo.com](mailto:seuemail@exemplo.com)
-💼 [LinkedIn](https://linkedin.com/in/seu-usuario)
-
-```
