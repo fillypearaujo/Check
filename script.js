@@ -7,15 +7,12 @@ const mainTitle = document.getElementById('main-title');
 window.onload = () => {
   const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
   tasks.forEach(addTaskToDOM);
-
-  // Aplica tema salvo ao carregar
   if (localStorage.getItem('theme') === 'dark') {
     document.body.classList.add('dark');
     themeSwitch.checked = true;
     mainTitle.classList.add('dark-title');
   }
 };
-
 function addTaskToDOM(task) {
   const li = document.createElement('li');
   li.textContent = task.text;
@@ -35,7 +32,6 @@ function addTaskToDOM(task) {
   li.appendChild(deleteBtn);
   taskList.appendChild(li);
 }
-
 function updateStorage() {
   const tasks = [];
   taskList.querySelectorAll('li').forEach(li => {
@@ -46,7 +42,6 @@ function updateStorage() {
   });
   localStorage.setItem('tasks', JSON.stringify(tasks));
 }
-
 addBtn.addEventListener('click', () => {
   const text = input.value.trim();
   if (text === '') return;
@@ -54,7 +49,6 @@ addBtn.addEventListener('click', () => {
   updateStorage();
   input.value = '';
 });
-
 themeSwitch.addEventListener('change', () => {
   document.body.classList.toggle('dark');
   const isDark = document.body.classList.contains('dark');
